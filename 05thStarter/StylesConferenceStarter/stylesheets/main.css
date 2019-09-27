@@ -1,0 +1,134 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+
+/*--kleurenpallet
+* #293f50: achtergrondskleur site
+* #648880 : groen
+* #a1d3b0; lichtgroen
+* #a9b2b9 : lichtgrijs
+*/
+
+/*---algemeen--*/
+body{
+    color: #888;
+    background-color: #293f50;
+    font-family: "Lato","Open Sans", "Helvetica Nue", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.375;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4{
+    color:#648880;
+}
+h1{
+    font-size: 2.25em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.3em;
+}
+h4{
+    font-size: 1.125em;
+}
+h5{
+    color:#a9b2b9;
+    font-size: 0.875em;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+a{
+    color:#648880;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#a9b2b9;
+
+}
+strong{
+    font-weight: 400;
+}
+cite, em{
+    font-style: italic;
+}
+/*--lead--*/
+.lead{
+    text-align: center;
+    background-color:#a1d3b0;
+
+}
+.lead h2{
+    font-size: 2.25em;
+}
+.lead p{
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+/*--content--*/
+.content{
+    background-color: #fff;
+}
+
+/*--header en footer--*/
+.logo {
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+
+header h1{
+    font-size: 3em;
+    line-height:0.92;
+}
+header nav{
+    font-size: 0.875em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+header a, footer a{
+    color:#fff;
+}
+header a:hover, footer a:hover{
+    color:#648880;
+    text-decoration: none;
+}
+footer{
+    color:#648880;
+    font-size: 0.875em;
+}
+footer small{
+    font-weight: normal;
+}
+
+/*---home page---*/
+.teaser{
+    line-height: 2.75;
+}
+.teaser h2{
+    font-size: 2.25em;
+}
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
